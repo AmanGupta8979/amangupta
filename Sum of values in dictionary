@@ -1,0 +1,11 @@
+dict={}
+size=int(input("enter the size od dict:"))
+for i in range (size):
+    k=input()
+    v=int(input())
+    dict.update({k:v})
+print(dict)
+print(dict.values())
+print(dict.keys())
+print(dict.items())
+print(sum(dict.values()))
