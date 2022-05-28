@@ -1,0 +1,11 @@
+import numpy as np
+import random
+l=[]
+for i in range(5):
+    a=random.random()
+    l.append(a)
+    a1=np.array(l)
+print(a1)
+import numpy as np
+a=np.random.rand(5)
+print(a)
